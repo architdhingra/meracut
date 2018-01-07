@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Your Sex :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/filter_male"
+            android:gravity="center"/>
+
+        <CheckBox
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/filter_female"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            />
+
+        <CheckBox
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/filter_unisex"
+            android:layout_height="wrap_content"
+            android:text="Unisex"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Your Type :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spa"
+            android:id="@+id/filter_spa"
+            android:gravity="center"/>
+
+        <CheckBox
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/filter_tatto"
+            android:layout_height="wrap_content"
+            android:text="Tattoo"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/filter_salon"
+            android:layout_height="wrap_content"
+            android:text="Salon"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

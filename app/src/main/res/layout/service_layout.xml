@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dbdbdb"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:onClick="checkbox"
+        android:layout_height="wrap_content">
+
+        <com.example.archit.meracut.changetypeface
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/servname"
+            customfont:typeface="Roboto-Bold.ttf"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Gents Haircut"
+            android:textSize="14sp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc"
+                android:textSize="12dp"
+                customfont:typeface="Roboto-Bold.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Price: Rs. "/>
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:id="@+id/price"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="200"
+                android:layout_marginBottom="3dp"/>
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                customfont:typeface="Roboto-Bold.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Discount Price: Rs."/>
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:id="@+id/dprice"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="150"
+                android:layout_marginBottom="3dp"/>
+
+        </LinearLayout>
+
+    <CheckBox
+        android:layout_marginTop="-5dp"
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

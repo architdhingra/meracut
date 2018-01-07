@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.archit.meracut.about">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_height="match_parent">
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                customfont:typeface="Roboto-Bold.ttf"
+                android:text="About-Us"/>
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:textColor="#4d4d4d"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="MeraCut links people with their nearest Beauty Salons, Tattoos and Spas. Now booking appointments in salons is no more a tedious and tiring task. Reserving salon sessions is a mere click away with the help of our app.\n\n
+It lists the nearby salons and spas, with the best deals and many exciting offers.We keep our records of salons and their services updated.\n\n
+All we aim at is that you get the most relaxing and refreshing experience that you deserve."
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="match_parent">
+
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                customfont:typeface="Roboto-Bold.ttf"
+                android:text="About \nDesigners And Developers"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/wadlogo"/>
+
+            <com.example.archit.meracut.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="14dp"
+                android:autoLink="web|email"
+
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:textColor="#4d4d4d"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="Meracut Android Application has been designed and developed under the care of Wish a Design, an international design and development firm.\n\nFor your designing and development needs: \nContact us at: wish@wishadesign.com \nOr visit our website: www.wishadesign.com"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>
